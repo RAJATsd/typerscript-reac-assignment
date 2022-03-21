@@ -1,0 +1,42 @@
+.jobs-info-and-filters-container {
+    margin: 1rem;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-bottom: 1rem;
+}
+
+.filtering-select {
+    padding: 0.5rem 1rem;
+    margin: 1rem 2rem;
+}
+
+.numbers-holders > * {
+    margin: 0 2rem;
+    border: 1px solid gray;
+    padding: 0.25rem 1rem;
+    border-radius: 4px;
+}
+
+.input-and-button-holder {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.input-and-button-holder > * {
+    margin: 0 1rem;
+}
+
+.input-and-button-holder > input {
+    padding: 0.5rem;
+}
+
+.sorting-button {
+    margin-top: 1rem;
+    padding: 0.2rem 2rem;
+    cursor: pointer;
+    color: rgb(160, 160, 160);
+}
+
+.sorting-button.sorted {
+    border: blue 1px solid;
+    color: blue;
+}
